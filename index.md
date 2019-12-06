@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 This code gives us access to the button we created on the main screen.  The setOnClickListener is alowing us to execture the given code when the button is pressed. In our case we are creating an intent to transition to a maps activity that we have yet to create. The line of code that mentions ```findViewByID(R.id.toMap)``` is connecting the button we created previously in content_main.xml file to our java code. Your content_main.xml file should now look like this:
 
-(INSERT THE IMAGE HERE)
+![image one](./images/image0)
 
 Within the MapsActivity.java file we can set the destination of a marker on our map, for this instance we chose the city of Grand Rapids for our marker point which can be seen here:
 
@@ -71,7 +71,7 @@ public void onMapReady(GoogleMap googleMap) {
 
 We can finally test the code to make sure the map is working correctly, we can do this by just running the emulator. 
 
-![image one](./images/image0)
+![image one](./images/image1)
 
 
 
@@ -114,6 +114,6 @@ public void onMapReady(GoogleMap googleMap) {.
 ```
 This code allows the user to create a polyline that house multiple waypoints. There is no limit to the number of waypoints that you can create. After choosing the waypoints we will need to update the camera as to find where our polyline actually resides. This is done by using the CameraUpdateFactory call. We can then pick a point on the map that is close to our polyline as well as our zoom factor. For this instance, a zoom factor of 10 gets close enough to see the roads of Grand Rapids but also far enough to see the entire polyline. Let’s run our new MapsActivity and see what it looks like. 
 
-(INSERT IMAGE HERE)
+![image one](./images/image2)
 
 If our steps were followed completely, your app should look like the image above. Polylines are very versatile in how they can be implemented, perhaps you want to make a flight path tracking app and want to see how flights are going to be routed, or you could use polylines for basic street directions as well. By further research a developer can find new ways to implement polylines for different interesting applications.
