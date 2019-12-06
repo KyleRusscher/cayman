@@ -71,7 +71,7 @@ public void onMapReady(GoogleMap googleMap) {
 
 We can finally test the code to make sure the map is working correctly, we can do this by just running the emulator. 
 
-(INSERT ANOTHER IMAGE HERE)
+![image one](./images/image0)
 
 
 
