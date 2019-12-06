@@ -2,10 +2,6 @@
 layout: default
 ---
 
-# Preface
-
-This is a tutorial for the Google maps SDK to help developers get up and running with a simple hello world google maps android application 
-
 ## Setup
 
 To begin developing for the app we must first get an IDE to house our code. Android Studio is a free IDE developed and maintained by google that can be downloaded here: Download Here! Next, we are going to need a key for the Maps SDK provided by Google. This can also be found here, while on the page in the top right corner it will say get started. Click this button, Google will then ask you to sign in. After successfully signing in a pop up will appear titled “Enable Google Maps Platform”, you then pick the API’s we will need. In this case choose Maps, then choose a project name. Google will then route you to a page enabling a billing account, fill in this information. Next you should be faced with a home screen, making sure that your project is selected from the drop down menu in the toolbar. We then click on “APIs & Services” -> “Credentials”, then create credentials. Google will pop up another dialog box, click on the API key selection. This should give you your own personal API key. Then we make our way to “APIs & Services” -> “Library”, sometimes the Maps SDK API has issues so you should clarify that it is enabled and ready to use.
