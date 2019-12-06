@@ -10,15 +10,13 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# Preface
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+This is a tutorial for the Google maps SDK to help developers get up and running with a simple hello world google maps android application 
 
-## Header 2
+## Setup
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+To begin developing for the app we must first get an IDE to house our code. For our instance we used Android Studio which is a free IDE that can be downloaded on google or at this link here: Download Here! Next, we are going to need a key for the Maps SDK provided by Google. This can also be found here, while on the page in the top right corner it will say get started. Click this button, Google will then ask you to sign in. After successfully signing in a pop up will appear titled “Enable Google Maps Platform”, you then pick the API’s we will need. In this case choose Maps, then choose a project name. Google will then route you to a page enabling a billing account, fill in this information. Next you should be faced with a home screen, making sure that your project is selected from the drop down menu in the toolbar. We then click on “APIs & Services” -> “Credentials”, then create credentials. Google will pop up another dialog box, click on the API key selection. This should give you your own personal API key. Then we make our way to “APIs & Services” -> “Library”, sometimes the Maps SDK API has issues so you should clarify that it is enabled and ready to use.
 
 ### Header 3
 
